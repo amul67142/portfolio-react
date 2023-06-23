@@ -17,12 +17,12 @@ const Navbar = () => {
   return (
     <div className=' w-full fixed bg-[#0a192f] items-center justify-between flex h-[80px] text-gray-50'>
         <div>
-            <img src={ARC}  className=" ml-20 mt-4 hover:rotate-180 duration-700" alt='logo' style={{width: '50px'}}/>
+            <img src={ARC}  className=" ml-10 mt-4 hover:rotate-180 duration-700" alt='logo' style={{width: '50px'}}/>
         </div>
         <div>
             {/*menu */}
             
-            <ul className=' hidden md:flex pr-8'>
+            <ul className=' hidden md:flex pr-8 '>
                 <li>
                 <Link to='home' smooth={true} duration={500}>
             Home
@@ -45,7 +45,7 @@ const Navbar = () => {
             </ul>
         </div>
             {/*hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        <div onClick={handleClick} className='md:hidden z-10 pr-4'>
            {!nav ? <FaBars/> : <FaTimes/>} 
         </div>
 
