@@ -75,16 +75,16 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[153px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
-                    <a className='flex justify-between items-center w-full text-gray-300'href='/'>LinkedIn<FaLinkedin size={25}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-300'href='https://www.linkedin.com/in/amul-sharma-8ab60a220/'>LinkedIn<FaLinkedin size={25}/></a>
                 </li>
                 <li className='w-[153px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-gray-300'href='/'>Github<FaGithub size={25}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-300'href='https://github.com/amul67142'>Github<FaGithub size={25}/></a>
                 </li>
                 <li className='w-[153px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300'href='/'>Email<HiOutlineMail size={25}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-300'href='mailto://amul67142@gmail.com'>email<HiOutlineMail size={25}/></a>
                 </li>
                 <li className='w-[153px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300'href='/'>Resume<BsFillPersonLinesFill size={25}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-300'href='https://drive.google.com/file/d/1MdiUGihhR7_krUKvwY2mUUULYNhGRh-M/view?usp=sharing'>Resume<BsFillPersonLinesFill size={25}/></a>
                 </li>
             </ul>
 
